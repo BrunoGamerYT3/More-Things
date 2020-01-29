@@ -1,0 +1,13 @@
+{
+	"name": "Gold Drill",
+	"description": "A little bit better then the iron drill",
+	"type": "Drill",
+	"size": 3,
+	"tier": 4,
+	"drillTime": 300,
+	"requirements": [
+                       { "item": "gold", "amount": 50 }
+	],
+	"category": "production",
+	"research": "iron-drill"
+}

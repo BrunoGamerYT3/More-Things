@@ -1,0 +1,17 @@
+{
+	"type": "Vault",
+	"name": "Copper Vault",
+	"description": "A copper vault that can store 50 items",
+	"hasItems": true,
+           "solid": true,
+	"destructible": true,
+           "health": 100,
+	"update": false,
+	"size": 2,
+	"itemCapacity": 50,
+	"requirements": [
+		{"item": "copper", "amount": 50}
+	],
+	"category": "effect",
+	"research": "conveyor"
+}

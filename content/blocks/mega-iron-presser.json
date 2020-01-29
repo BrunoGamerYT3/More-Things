@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Mega Iron Presser",
+	"description": "Makes iron ore faster",
+	"outputItem": {"item": "iron-ore", "amount": "1"},
+	"size": 3,
+           "hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1 },
+                                             { "item": "lead", "amount": 1 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "iron", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "iron-presser",
+}

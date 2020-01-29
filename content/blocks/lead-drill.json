@@ -1,0 +1,13 @@
+{
+	"name": "Lead Drill",
+	"description": "A little bit better then the copper drill",
+	"type": "Drill",
+	"size": 2,
+	"tier": 2,
+	"drillTime": 480,
+	"requirements": [
+                       { "item": "lead", "amount": 50 }
+	],
+	"category": "production",
+	"research": "copper-drill"
+}

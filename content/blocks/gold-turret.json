@@ -1,0 +1,30 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Gold Turret",
+	"description": "Stronger the the iron one",
+	"health": 1000,
+	"size": 2,
+	"reload": 75,
+	"range": 200,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 2,
+	"targetAir":true,
+	"ammo": {
+		"gold": {
+			"speed": 5.0,
+			"damage": 100,
+			"bulletWidth": 15,
+			"bulletHeight": 15,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		  },
+	},
+	"requirements": [
+		{ "item": "gold", "amount": 25 },
+		{ "item": "iron", "amount": 10 }
+	],
+           "research": "iron-turret",
+	"category": "turret"
+}

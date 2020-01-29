@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Large Diamond Wall",
+	"description": "A larger wall made out of diamond",
+	"health": 6000,
+	"size": 2,
+	"requirements": [
+		{ "item": "diamond", "amount": 24 }
+	],
+	"research": "diamond-wall",
+	"category": "defense"
+}

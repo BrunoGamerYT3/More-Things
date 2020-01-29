@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Gigantic Copper Wall",
+	"description": "Really big copper wall",
+	"health": 4000,
+	"size": 4,
+	"requirements": [
+		{ "item": "copper", "amount": 62 }
+	],
+	"research": "huge-copper-wall",
+	"category": "defense"
+}

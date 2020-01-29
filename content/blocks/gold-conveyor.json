@@ -1,0 +1,12 @@
+{
+	"type": "Conveyor",
+	"name": "Gold Conveyor",
+	"description": "A bit faster then the iron",
+	"health": "10",
+	"requirements": [
+		{"item": "gold", "amount": 5}
+	],
+	"category": "distribution",
+	"speed": 0.20,
+	"research": "iron-conveyor"
+}

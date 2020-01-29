@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "iron Wall",
+	"description": "A wall made out of iron",
+	"health": 650,
+	"size": 1,
+	"buildCostMultiplier": 5,
+	"requirements": [
+		{ "item": "iron", "amount": 6 }
+	],
+	"research": "large-lead-wall",
+	"category": "defense"
+}

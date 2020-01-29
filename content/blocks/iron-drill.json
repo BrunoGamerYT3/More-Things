@@ -1,0 +1,13 @@
+{
+	"name": "Iron Drill",
+	"description": "A little bit better then the lead drill",
+	"type": "Drill",
+	"size": 2,
+	"tier": 3,
+	"drillTime": 350,
+	"requirements": [
+                       { "item": "iron", "amount": 50 }
+	],
+	"category": "production",
+	"research": "lead-drill"
+}

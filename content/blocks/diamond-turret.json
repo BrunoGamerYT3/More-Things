@@ -1,0 +1,31 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Diamond Turret",
+	"description": "Stronger the the gold one",
+	"health": 1500,
+	"size": 3,
+	"reload": 75,
+	"range": 250,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 2,
+	"targetAir":true,
+	"ammo": {
+		"diamond": {
+			"speed": 7.0,
+			"damage": 250,
+			"bulletWidth": 20,
+			"bulletHeight": 20,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		  },
+	},
+	"requirements": [
+		{ "item": "diamond", "amount": 25 },
+		{ "item": "gold", "amount": 10 },
+		{ "item": "titanium", "amount": 10 }
+	],
+           "research": "gold-turret",
+	"category": "turret"
+}

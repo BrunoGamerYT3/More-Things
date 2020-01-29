@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Large Gold Wall",
+	"description": "A larger wall made out of gold",
+	"health": 3000,
+	"size": 2,
+	"requirements": [
+		{ "item": "gold", "amount": 24 }
+	],
+	"research": "gold-wall",
+	"category": "defense"
+}

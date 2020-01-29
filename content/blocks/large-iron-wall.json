@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Large Iron Wall",
+	"description": "A larger wall made out of iron",
+	"health": 1950,
+	"size": 2,
+	"requirements": [
+		{ "item": "iron", "amount": 24 }
+	],
+	"research": "iron-wall",
+	"category": "defense"
+}

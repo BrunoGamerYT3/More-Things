@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "Gold Mixer",
+	"description": "Makes gold",
+	"outputItem": {"item": "gold", "amount": "1"},
+	"size": 2,
+           "hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 15,
+	"craftTime": 200,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1,
+                       "liquid": {
+			"liquid": "slag",
+			"amount": 0.10
+		}
+		"items": {
+			"items": [
+				{ "item": "iron", "amount": 1 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "iron", "amount": 50 },
+		{ "item": "lead", "amount": 25 },
+		{ "item": "titanium", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "mega-iron-presser",
+}

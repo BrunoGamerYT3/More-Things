@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "Mega Gold Mixer",
+	"description": "Makes gold faster",
+	"outputItem": {"item": "gold", "amount": "1"},
+	"size": 3,
+           "hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 25,
+	"craftTime": 150,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2,
+                       "liquid": {
+			"liquid": "slag",
+			"amount": 0.10
+		}
+		"items": {
+			"items": [
+				{ "item": "iron", "amount": 1 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "gold", "amount": 50 },
+		{ "item": "iron", "amount": 25 },
+		{ "item": "titanium", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "gold-mixer",
+}

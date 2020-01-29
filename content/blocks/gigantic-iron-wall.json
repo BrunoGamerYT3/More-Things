@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Gigantic Iron Wall",
+	"description": "Really big iron wall",
+	"health": 4400,
+	"size": 4,
+	"requirements": [
+		{ "item": "iron", "amount": 62 }
+	],
+	"research": "huge-iron-wall",
+	"category": "defense"
+}

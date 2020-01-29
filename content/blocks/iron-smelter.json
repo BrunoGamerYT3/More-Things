@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Iron Smelter",
+	"description": "Smelts iron into ingots faster",
+	"outputItem": {"item": "iron", "amount": "1"},
+	"size": 3,
+           "hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "iron-ore", "amount": 1 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "iron", "amount": 45 },
+		{ "item": "lead", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "lead-smelter",
+}

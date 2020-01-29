@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Huge Diamond Wall",
+	"description": "Pretty big diamond wall",
+	"health": 12000,
+	"size": 3,
+	"requirements": [
+		{ "item": "diamond", "amount": 54 }
+	],
+	"research": "large-diamond-wall",
+	"category": "defense"
+}

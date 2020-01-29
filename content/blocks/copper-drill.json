@@ -1,0 +1,13 @@
+{
+	"name": "Copper Drill",
+	"description": "A little bit better then the mechanical drill",
+	"type": "Drill",
+	"size": 2,
+	"tier": 2,
+	"drillTime": 500,
+	"requirements": [
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "production",
+	"research": "mechanical-drill"
+}

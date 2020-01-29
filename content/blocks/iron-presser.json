@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Iron Presser",
+	"description": "Makes iron ore",
+	"outputItem": {"item": "iron-ore", "amount": "1"},
+	"size": 2,
+           "hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 130,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1 },
+                                             { "item": "lead", "amount": 1 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+}

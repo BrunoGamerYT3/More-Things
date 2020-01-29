@@ -1,0 +1,12 @@
+{
+	"type": "Conveyor",
+	"name": "Copper Conveyor",
+	"description": "A bit faster then the normal",
+	"health": "3",
+	"requirements": [
+		{"item": "copper", "amount": 5}
+	],
+	"category": "distribution",
+	"speed": 0.05,
+	"research": "conveyor"
+}

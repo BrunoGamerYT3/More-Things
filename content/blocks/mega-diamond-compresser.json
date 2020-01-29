@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Mega Diamond Compresser",
+	"description": "Compresses 50 coal to diamond faster",
+	"outputItem": {"item": "diamond", "amount": "1"},
+	"size": 4,
+           "hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"craftTime": 400,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 50 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "diamond", "amount": 75 },
+		{ "item": "gold", "amount": 75 },
+		{ "item": "titanium", "amount": 75 },
+	],
+	"category": "crafting",
+	"research": "diamond-compresser",
+}

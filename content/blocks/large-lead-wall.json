@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Large Lead Wall",
+	"description": "A larger wall made out of lead",
+	"health": 1800,
+	"size": 2,
+	"requirements": [
+		{ "item": "lead", "amount": 24 }
+	],
+	"research": "lead-wall",
+	"category": "defense"
+}

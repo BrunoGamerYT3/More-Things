@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Titanium Smelter",
+	"description": "Smelts iron into ingots even faster",
+	"outputItem": {"item": "iron", "amount": "1"},
+	"size": 4,
+           "hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"craftTime": 75,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "iron-ore", "amount": 1 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "titanium", "amount": 45 },
+		{ "item": "iron", "amount": 25 },
+	],
+	"category": "crafting",
+	"research": "iron-smelter",
+}

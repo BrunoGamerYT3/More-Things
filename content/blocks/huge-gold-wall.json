@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Huge Gold Wall",
+	"description": "Pretty big gold wall",
+	"health": 6000,
+	"size": 3,
+	"requirements": [
+		{ "item": "gold", "amount": 54 }
+	],
+	"research": "large-gold-wall",
+	"category": "defense"
+}

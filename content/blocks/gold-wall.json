@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "Gold Wall",
+	"description": "A wall made out of gold",
+	"health": 1000,
+	"size": 1,
+	"buildCostMultiplier": 5,
+	"requirements": [
+		{ "item": "gold", "amount": 6 }
+	],
+	"research": "large-iron-wall",
+	"category": "defense"
+}

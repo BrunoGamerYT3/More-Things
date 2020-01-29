@@ -1,0 +1,13 @@
+{
+	"name": "Diamond Drill",
+	"description": "One of the most fastest drills",
+	"type": "Drill",
+	"size": 3,
+	"tier": 5,
+	"drillTime": 250,
+	"requirements": [
+                       { "item": "diamond", "amount": 50 }
+	],
+	"category": "production",
+	"research": "gold-drill"
+}

@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Huge Lead Wall",
+	"description": "Pretty big lead wall",
+	"health": 3600,
+	"size": 3,
+	"requirements": [
+		{ "item": "lead", "amount": 54 }
+	],
+	"research": "large-lead-wall",
+	"category": "defense"
+}
