@@ -1,0 +1,16 @@
+{
+	"type": "Unloader",
+	"name": "Copper Unloader",
+	"description": "Same as the unloader but cheaper and weaker",
+	"hasItems": true,
+           "speed": 0.10,
+	"solid": true,
+	"update": true,
+	"health": 2,
+	"item/amount": 5,
+	"requirements": [
+		{"item": "copper", "amount": 200}
+	],
+	"category": "effect",
+	"research": "unloader"
+}

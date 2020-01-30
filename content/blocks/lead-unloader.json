@@ -1,0 +1,16 @@
+{
+	"type": "Unloader",
+	"name": "Lead Unloader",
+	"description": "Same as the copper unloader but a little bit stronger",
+	"hasItems": true,
+           "speed": 0.15,
+	"solid": true,
+	"update": true,
+	"health": 10,
+	"item/amount": 5,
+	"requirements": [
+		{"item": "lead", "amount": 200}
+	],
+	"category": "effect",
+	"research": "copper-unloader"
+}

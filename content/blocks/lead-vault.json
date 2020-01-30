@@ -1,0 +1,17 @@
+{
+	"type": "Vault",
+	"name": "Lead Vault",
+	"description": "A lead vault that can store 75 items",
+	"hasItems": true,
+           "solid": true,
+	"destructible": true,
+           "health": 150,
+	"update": false,
+	"size": 2,
+	"itemCapacity": 75,
+	"requirements": [
+		{"item": "lead", "amount": 100}
+	],
+	"category": "effect",
+	"research": "copper-vault"
+}
