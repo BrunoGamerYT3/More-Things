@@ -1,0 +1,12 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Armored Gold Conveyor",
+	"description": "A bit faster then the iron and armored",
+	"health": "10",
+	"requirements": [
+		{"item": "gold", "amount": 10}
+	],
+	"category": "distribution",
+	"speed": 0.20,
+	"research": "gold-conveyor"
+}

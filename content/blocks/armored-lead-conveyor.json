@@ -1,0 +1,12 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Armored Lead Conveyor",
+	"description": "A bit faster then the copper and armored",
+	"health": "4",
+	"requirements": [
+		{"item": "lead", "amount": 10}
+	],
+	"category": "distribution",
+	"speed": 0.07,
+	"research": "lead-conveyor"
+}
