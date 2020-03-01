@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Iron Breaker",
+	"description": "Makes titanium out of iron",
+	"outputItem": {"item": "titanium", "amount": "2"},
+	"size": 3,
+           "hasPower": false,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 15,
+	"craftTime": 130,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "iron", "amount": 1 },
+			]
+		}
+	},	
+	"requirements": [
+		{ "item": "titanium", "amount": 25 },
+		{ "item": "iron", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "iron-presser",
+}

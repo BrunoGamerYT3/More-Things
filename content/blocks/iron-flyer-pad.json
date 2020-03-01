@@ -1,0 +1,18 @@
+{
+	"type": "MechPad",
+	"name": "Iron Flyer Pad",
+	"description": "Transforms the player into an iron flyer",
+	"hasPower": true,
+           "solid": true,
+	"mech": "iron-flyer",
+	"buildTime": 500,
+           "health": 250,
+	"update": true,
+	"size": 2,
+	"requirements": [
+		{"item": "iron", "amount": 100},
+		{"item": "titanium", "amount": 50}
+	],
+	"category": "upgrade",
+	"research": "dart-mech-pad"
+}
