@@ -1,0 +1,13 @@
+{
+	"name": "Titanium Drill",
+	"description": "A little bit better then the lead drill",
+	"type": "Drill",
+	"size": 2,
+	"tier": 3,
+	"drillTime": 400,
+	"requirements": [
+                       { "item": "titanium", "amount": 50 }
+	],
+	"category": "production",
+	"research": "lead-drill"
+}
